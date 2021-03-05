@@ -153,6 +153,29 @@ a.menu-logo {
   max-width: 460px;
 }
 
+@media (min-width: 740px) and (max-width:980px) {
+  .sobre-container {
+    max-width: 720px;
+  }
+  .sobre-item {
+    width: 340px;
+  }
+}
+
+@media (max-width:739px) {
+  .sobre-container {
+    max-width: 300px;
+  }
+  .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .sobre-item h3 {
+    font-size: 1.50em;
+    width: 180px;
+  }
+}
+
 /* Produtos */
 .produtos {
   background: #e7e4d8;
