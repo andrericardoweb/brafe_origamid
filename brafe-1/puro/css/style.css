@@ -1,3 +1,11 @@
+/*
+Breakpoints
+960
+740
+
+*/
+
+
 /* Reset */
 * {
   box-sizing: border-box;
@@ -46,6 +54,19 @@ a.menu-logo {
   text-decoration: none;
   color: #fff;
   font-size: 1.125em;
+}
+
+@media (max-width:739px) {
+  a.menu-logo {
+    float: none;
+    margin: 0 auto 10px auto;
+    text-align: center;
+  }
+  .menu-nav {
+    text-align: center;
+    float: none;
+    clear: both;
+  }
 }
 
 /* Intro */
@@ -333,4 +354,5 @@ h2.produtos-mineiro::before {
   margin: 0 10px;
   display: block;
 }
+
 
