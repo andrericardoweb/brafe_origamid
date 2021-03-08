@@ -406,6 +406,25 @@ h2.produtos-mineiro::before {
   cursor: pointer;
 }
 
+@media (min-width: 740px) and (max-width:980px) {
+  .assine-container {
+    max-width: 720px;
+  }
+  .assine-info, .assine form, .assine input {
+    width: 340px;
+  }
+}
+
+@media (max-width:739px) {
+  .assine-container {
+    max-width: 300px;
+  }
+  .assine-info, .assine form, .assine input {
+    width: 300px;
+    margin: 10px 0 0 0;
+  }
+}
+
 /* Footer */
 .footer {
   background: #d6d3c8;
