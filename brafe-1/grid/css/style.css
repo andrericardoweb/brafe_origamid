@@ -1,0 +1,405 @@
+/* Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  color: #252525;
+}
+
+/* Menu */
+.menu {
+  background: #252525;
+  padding: 20px 0;
+}
+.menu-container{
+
+
+}
+
+
+a.menu-logo {
+  display: block;
+  
+
+}
+
+.menu-nav {
+  
+}
+.menu-nav li {
+  display: inline-block;
+}
+.menu-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125em;
+}
+
+@media (max-:739px) {
+  a.menu-logo {
+    
+
+    text-align: center;
+  }
+  .menu-nav {
+    text-align: center;
+    
+    clear: both;
+  }
+}
+
+/* Intro */
+.intro {
+  background: url('../img/bg-intro.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: #fff;
+}
+.intro h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.intro h1::after {
+  content: '';
+  display: block;
+
+  height: 4px;
+  background: #fff;
+
+}
+.intro p {
+  font-style: italic;
+  font-size: 1.125em;
+}
+
+@media (max-:739px) {
+  .intro {
+    padding: 60px 0;
+  }
+}
+
+/* Sobre */
+.sobre {
+  padding: 60px 0;
+}
+
+
+
+.sobre h2 {
+  text-align: center;
+  font-size: 2.25em;
+
+}
+
+.sobre-item {
+
+  
+
+}
+
+.sobre-item img {
+  display: block;
+
+}
+
+.sobre-item h3 {
+  font-size: 2.25em;
+  line-height: 1em;
+  background: #252525;
+  color: #fff;
+
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  padding: 5px 0 10px 0;
+  top: -25px;
+  position: relative;
+}
+.sobre > p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  font-style: italic;
+  text-align: center;
+
+}
+
+@media (min-: 740px) and (max-:980px) {
+
+  .sobre-item {
+
+  }
+}
+
+@media (max-:739px) {
+
+  .sobre-item {
+
+
+  }
+  .sobre-item h3 {
+    font-size: 1.50em;
+
+  }
+}
+
+/* Produtos */
+.produtos {
+  background: #e7e4d8;
+  padding: 60px 0;
+  border-top: #d6d3c8 solid 3px;
+  border-bottom: #d6d3c8 solid 3px;
+}
+
+
+
+.produtos-item {
+
+  
+
+}
+.produtos-item h2 {
+  text-align: center;
+  font-size: 2.25em;
+
+}
+.produtos-item h2::before {
+  content: '';
+  display: block;
+
+  background: currentColor;
+  border-radius: 50%;
+
+  border: 5px solid #e7e4d8;
+  box-shadow: 0 0 0 5px currentColor;  
+}
+h2.produtos-paulista::before {
+  color: #492901;
+}
+h2.produtos-carioca::before {
+  color: #c17139;
+}
+h2.produtos-mineiro::before {
+  color: #d7a54d;
+}
+
+.produtos-item p {
+  font-size: 0.875em;
+  line-height: 1.4em;
+}
+
+.produtos-btn {
+
+  border: 3px solid;
+  color: #252525;
+  text-decoration: none;
+  display: block;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+ 
+}
+.produtos-btn:hover {
+  background: #d6d3c8;
+}
+
+@media (min-: 740px) and (max-:980px) {
+
+  .produtos-item {
+
+  }
+}
+
+@media (max-:739px) {
+
+  .produtos-item {
+
+  }
+}
+
+/* Locais */
+.locais {
+
+
+}
+.locais-item {
+
+}
+
+
+
+.locais-item img {
+
+  
+  display: block;
+
+}
+
+.locais-item > div {
+ 
+}
+
+.locais-item h2 {
+  font-size: 2.25em;
+
+}
+
+.locais-item p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+
+
+}
+
+.locais-item a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 20px;
+}
+.locais-item a:hover {
+  background: #d6d3c8;
+}
+
+@media (min-: 740px) and (max-:980px) {
+  .locais {
+
+  }
+  .locais-item > div, .locais-item img {
+
+  }
+  .locais-item h2 {
+
+  }
+  .locais-item p {
+
+  }
+}
+
+@media (max-:739px) {
+  .locais {
+
+  }
+  .locais-item > div, .locais-item img {
+
+
+  }
+  .locais-item h2 {
+
+  }
+  .locais-item p {
+
+  }
+}
+
+/* Assine */
+.assine {
+  background: #e7e4d8;
+  padding: 30px 0;
+}
+
+
+.assine-info {
+
+  padding: 0 10px;
+  
+}
+.assine-info h2 {
+  font-size: 2.125em;
+}
+.assine-info p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.assine form {
+
+
+  
+}
+.assine form label {
+  display: none;
+}
+.assine input {
+
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding: 10px;
+  
+}
+.assine button {
+  background: #252525;
+  border: none;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff;
+
+  padding: 13px 0;
+  cursor: pointer;
+}
+
+@media (min-: 740px) and (max-:980px) {
+
+  .assine-info, .assine form, .assine input {
+
+  }
+}
+
+@media (max-:739px) {
+
+  .assine-info, .assine form, .assine input {
+
+
+  }
+}
+
+/* Footer */
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+
+.footer p {
+  
+
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+.footer img {
+  
+
+  display: block;
+}
+
+@media (max-:739px) {
+
+  .footer p {
+    
+
+  }
+  .footer img {
+    
+
+  }
+}
+
+
