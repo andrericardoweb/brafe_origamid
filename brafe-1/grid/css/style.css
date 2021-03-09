@@ -14,16 +14,15 @@ body {
   color: #252525;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* Menu */
 .menu {
   background: #252525;
-  padding: 20px 0;
 }
-.menu-container{
-
-
-}
-
 
 a.menu-logo {
   display: block;
