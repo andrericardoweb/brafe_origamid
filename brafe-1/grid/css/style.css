@@ -22,40 +22,41 @@ img {
 /* Menu */
 .menu {
   background: #252525;
+  padding: 15px 0;
 }
 
-a.menu-logo {
-  display: block;
-  float: left;
-  margin-left: 10px;
-}
-
-.menu-nav {
+.menu-nav ul {
   float: right;
 }
-.menu-nav li {
+
+.menu-nav ul li {
   display: inline-block;
 }
+
+
 .menu-nav a {
   display: block;
-  padding: 10px;
   text-decoration: none;
   color: #fff;
   font-size: 1.125em;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 @media (max-width:739px) {
-  a.menu-logo {
+  .menu-nav ul {
     float: none;
-    margin: 0 auto 10px auto;
-    text-align: center;
+    margin: 0 auto;
   }
-  .menu-nav {
-    text-align: center;
-    float: none;
-    clear: both;
+  .menu-nav ul li a {
+    margin-left: 0px;
+    padding: 10px 4px;
+  }
+  .menu-logo img {
+    margin: 0 auto 10px auto;
   }
 }
+
 
 /* Intro */
 .intro {
@@ -72,9 +73,10 @@ a.menu-logo {
 .intro h1::after {
   content: '';
   display: block;
-
+  width: 20px;
   height: 4px;
   background: #fff;
+  margin: 10px auto;
 
 }
 .intro p {
@@ -82,7 +84,7 @@ a.menu-logo {
   font-size: 1.125em;
 }
 
-@media (max-:739px) {
+@media (max-width:739px) {
   .intro {
     padding: 60px 0;
   }
