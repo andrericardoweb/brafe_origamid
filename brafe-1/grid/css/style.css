@@ -192,36 +192,23 @@ h2.produtos-mineiro::before {
 
 /* Locais */
 .locais {
-
-
-}
-.locais-item {
-
+  padding: 60px 0;
 }
 
-
-
-.locais-item img {
-
-  
-  display: block;
-
-}
-
-.locais-item > div {
- 
+.locais > div {
+  margin-bottom: 40px;
 }
 
 .locais-item h2 {
   font-size: 2.25em;
-
+  margin-bottom: 20px;
 }
 
 .locais-item p {
   font-size: 1.125em;
   line-height: 1.4em;
-
-
+  max-width: 320px;
+  margin-bottom: 40px;
 }
 
 .locais-item a {
@@ -236,34 +223,14 @@ h2.produtos-mineiro::before {
   background: #d6d3c8;
 }
 
-@media (min-: 740px) and (max-:980px) {
-  .locais {
 
-  }
-  .locais-item > div, .locais-item img {
-
-  }
+@media (max-width:739px) {
   .locais-item h2 {
-
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .locais-item p {
-
-  }
-}
-
-@media (max-:739px) {
-  .locais {
-
-  }
-  .locais-item > div, .locais-item img {
-
-
-  }
-  .locais-item h2 {
-
-  }
-  .locais-item p {
-
+    margin-bottom: 20px;
   }
 }
 
@@ -273,9 +240,7 @@ h2.produtos-mineiro::before {
   padding: 30px 0;
 }
 
-
 .assine-info {
-
   padding: 0 10px;
   
 }
@@ -287,23 +252,18 @@ h2.produtos-mineiro::before {
   font-style: italic;
 }
 
-.assine form {
-
-
-  
-}
 .assine form label {
   display: none;
 }
 .assine input {
-
+  width: calc(100% - 140px);
   border: 3px solid #252525;
   background: none;
   font-size: 1.5em;
   font-style: italic;
   font-family: Georgia, serif;
   padding: 10px;
-  
+  float: left;  
 }
 .assine button {
   background: #252525;
@@ -312,23 +272,15 @@ h2.produtos-mineiro::before {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #fff;
-
+  width: 140px;
   padding: 13px 0;
   cursor: pointer;
 }
 
-@media (min-: 740px) and (max-:980px) {
-
-  .assine-info, .assine form, .assine input {
-
-  }
-}
-
-@media (max-:739px) {
-
-  .assine-info, .assine form, .assine input {
-
-
+@media (max-width:739px) {
+  .assine input {
+    width: 100%;
+    float: none;
   }
 }
 
@@ -338,28 +290,19 @@ h2.produtos-mineiro::before {
   padding: 40px 0;
 }
 
-
 .footer p {
-  
-
   font-size: 1.125em;
   line-height: 1.4em;
 }
-.footer img {
-  
 
-  display: block;
+.footer img {
+  float: right;
 }
 
-@media (max-:739px) {
-
-  .footer p {
-    
-
-  }
+@media (max-width:739px) {
   .footer img {
-    
-
+    margin-top: 20px;
+    float: none;   
   }
 }
 
